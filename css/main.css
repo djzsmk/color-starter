@@ -73,10 +73,16 @@ footer {
 
   #column-3 {
     background-color:#4b0082 ;
+    width: 100%;
   }
 
   footer {
-    background-color:#e3e3e3 ;
+    background-color:#000000 ;
+  }
+
+  .col-3 {
+    min-width: 50%;
+    max-width: 100%
   }
   
 }
@@ -102,6 +108,11 @@ footer {
 
   footer {
     background-color: #dcdcdc;
+  }
+
+  .col-3 {
+    min-width: 33.3%;
+    max-width: 100%;
   }
    
 }
